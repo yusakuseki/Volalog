@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ボランティア活動評価掲示板</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 1.2rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    }
+    .tag {
+      display: inline-block;
+      background: #ecf0f1;
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 0.4rem;
+    }
+    .rating {
+      font-weight: bold;
+      color: #e67e22;
+    }
+    footer {
+      font-size: 0.8rem;
+      color: #666;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 0.6rem;
+      background: #3498db;
+      color: #fff;
+      padding: 0.4rem 0.8rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ボランティア活動 評価掲示板</h1>
+    <p>匿名で共有される体験談を、参加判断の参考にしてください</p>
+  </header>  <main>
+    <div class="card">
+      <h3>オンライン翻訳ボランティア</h3>
+      <p>
+        <span class="tag">翻訳</span>
+        <span class="tag">オンライン</span>
+        <span class="tag">週2時間</span>
+      </p>
+      <p class="rating">総合評価：★★★★☆（4.0）</p>
+      <p>作業量は多くないが、締切管理は必要。</p>
+      <a class="button" href="#">詳細・応募</a>
+    </div><div class="card">
+  <h3>海外向けSNS運営サポート</h3>
+  <p>
+    <span class="tag">広報</span>
+    <span class="tag">海外</span>
+    <span class="tag">月5時間</span>
+  </p>
+  <p class="rating">総合評価：★★★☆☆（3.5）</p>
+  <p>裁量は大きいが、指示は少なめ。</p>
+  <a class="button" href="#">詳細・応募</a>
+</div>
+
+  </main>  <footer>
+    <p>
+      本サイトは情報掲示のみを目的としています。<br />
+      活動への参加・判断は利用者ご自身の責任で行ってください。<br />
+      トラブルについて運営は一切関与しません。
+    </p>
+    <p>匿名レビュー投稿：<a href="#">Googleフォーム</a></p>
+  </footer>
+</body>
+</html>
